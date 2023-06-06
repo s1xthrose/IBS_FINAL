@@ -1,0 +1,12 @@
+loginName,password,email,first_name,last_name,phone,country,city,adress,state,zipcode
+jSmith1,Pa$$word1,johnsmith1@gmail.com,John,Smith,+1-555-123-4567,USA,New York,123 Main St,New York,10001
+sBrown2,P@ssword2,samanthabrown2@hotmail.com,Samantha,Brown,+1-555-234-5678,Canada,Toronto,456 Queen St,Toronto,M5V 2A9
+dJohnson3,Passw0rd3,deborahjohnson3@yahoo.com,Deborah,Johnson,+1-555-345-6789,USA,Los Angeles,789 Elm St,California,90001
+rWilson4,W1lsonPass4,rachelwilson4@gmail.com,Rachel,Wilson,+1-555-456-7890,UK,London,12 Oxford St,London,W1D 1AP
+jLee5,P@ssword5,jameslee5@gmail.com,James,Lee,+1-555-567-8901,Australia,Sydney,34 George St,NSW,2000
+kTaylor6,TaylorPass6,katietaylor6@hotmail.com,Katie,Taylor,+1-555-678-9012,USA,Chicago,567 Lakeview Ave,Illinois,60601
+mSmith7,M1kePass7,michellesmith7@gmail.com,Michelle,Smith,+1-555-789-0123,Canada,Vancouver,890 Granville St,Vancouver,V6Z 1K3
+bJones8,Passw0rd8,brianjones8@yahoo.com,Brian,Jones,+1-555-890-1234,USA,Miami,123 Ocean Dr,Florida,33139
+eWang9,ElliePass9,elliewang9@gmail.com,Ellie,Wang,+1-555-901-2345,Canada,Montreal,456 St. Catherine St E,Quebec,H2L 2C4
+jGarcia10,GarciaPa$$10,johngarcia10@hotmail.com,John,Garcia,+1-555-012-3456,USA,San Francisco,789 Market St,California,94103
+

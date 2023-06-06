@@ -1,0 +1,13 @@
+[t35]
+FileName1=t35_l.json
+URL1=https://translate.googleapis.com/translate_a/l?client=chrome&hl=ru&key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_35.xml
+RequestHeaderFile=t35_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t35_ResponseHeader.txt
+FileName2=t35_services.html
+URL2=https://www.advantageonlineshopping.com/services.properties
+[ProtocolInfo]
+ProtocolId=QTWeb

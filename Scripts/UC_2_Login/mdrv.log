@@ -1,0 +1,71 @@
+Virtual User Script started at: 05.06.2023 5:58:25
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Anton\Desktop\Final_task\Scripts\UC_2_Login\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(4): Notify: Transaction "UC_2_Login" started.
+Action.c(6): Notify: Transaction "open_homepage" started.
+Action.c(8): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(8): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(10): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(10): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(12): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+Action.c(12): Found resource "https://www.advantageonlineshopping.com/css/main.min.css" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(12): Found resource "https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(12): Found resource "https://www.advantageonlineshopping.com/css/images/Down_arrow.svg" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(12): Found resource "https://www.advantageonlineshopping.com/vendor/requirejs/require.js" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(12): Downloading resource "https://www.advantageonlineshopping.com/services.properties" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(12): Downloading resource "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(12): Warning -26604: Unsupported "Content-Encoding"  	[MsgId: MWAR-26604]
+Action.c(12): web_url("www.advantageonlineshopping.com") highest severity level was "warning", 140657 body bytes, 2992 header bytes  	[MsgId: MMSG-26388]
+Action.c(24): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(24): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(26): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(26): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(39): web_url("home-page.html") started  	[MsgId: MMSG-26355]
+Action.c(39): Found resource "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(39): Found resource "https://www.advantageonlineshopping.com/css/images/chat_logo.png" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(39): Found resource "https://www.advantageonlineshopping.com/app/views/" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(39): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" (specified by argument number 9)  	[MsgId: MMSG-26577]
+Action.c(39): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(39): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+Action.c(39): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+Action.c(39): web_url("home-page.html") highest severity level was "warning", 56011 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+Action.c(51): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 2,2007 Wasted Time: 0,0740).
+Action.c(53): Notify: Transaction "login" started.
+Action.c(55): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(55): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(59): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(59): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(65): web_reg_save_param_xpath started  	[MsgId: MMSG-26355]
+Action.c(65): Registering web_reg_save_param_xpath was successful  	[MsgId: MMSG-26390]
+Action.c(76): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(76): Registered web_reg_find successful for "Text=Incorrect user name or password"  	[MsgId: MMSG-26362]
+Action.c(76): web_custom_request("AccountLoginRequest") was successful, 786 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(89): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(89): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(91): web_add_header("Authorization") started  	[MsgId: MMSG-26355]
+Action.c(91): Warning -26594: The header being added may cause unpredictable results if applied to ALL the URLs generated on behalf of the next script function. It will apply to the primary URL only.  	[MsgId: MWAR-26594]
+Action.c(91): web_add_header("Authorization") highest severity level was "warning"  	[MsgId: MMSG-26391]
+Action.c(93): web_url("userId") started  	[MsgId: MMSG-26355]
+Action.c(93): web_url("userId") was successful, 111 body bytes, 455 header bytes  	[MsgId: MMSG-26386]
+Action.c(103): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(103): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(105): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,8686 Wasted Time: 0,0119).
+Action.c(107): Notify: Transaction "logout" started.
+Action.c(109): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(109): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(122): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,4836 Wasted Time: 0,0033).
+Action.c(124): Notify: Transaction "UC_2_Login" ended with a "Pass" status (Duration: 3,6208 Wasted Time: 0,0893).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

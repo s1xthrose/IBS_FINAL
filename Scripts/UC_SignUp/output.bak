@@ -1,0 +1,445 @@
+Virtual User Script started at: 04.06.2023 23:56:49
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\Anton\Desktop\Final_task\Scripts\UC_SignUp\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): Notify: Transaction "UC_1_NewUser_Registration" started.
+Action.c(5): Notify: Transaction "open_homepage" started.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/main.min.css" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/images/Down_arrow.svg" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/vendor/requirejs/require.js" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/main.min.js" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/services.properties" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(9): web_url("www.advantageonlineshopping.com") was successful, 408571 body bytes, 3418 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): web_url("home-page.html") started  	[MsgId: MMSG-26355]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/css/images/chat_logo.png" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" (specified by argument number 8)  	[MsgId: MMSG-26577]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+Action.c(34): web_url("home-page.html") highest severity level was "warning", 55965 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+Action.c(45): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 3,7975 Wasted Time: 0,1193).
+Action.c(48): Notify: Transaction "click_Regist" started.
+Action.c(51): web_url("register-page.html") started  	[MsgId: MMSG-26355]
+Action.c(51): web_url("register-page.html") was successful, 1469 body bytes, 406 header bytes  	[MsgId: MMSG-26386]
+Action.c(60): web_custom_request("GetCountriesRequest") started  	[MsgId: MMSG-26355]
+Action.c(60): web_custom_request("GetCountriesRequest") was successful, 4184 body bytes, 761 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "click_Regist" ended with a "Pass" status (Duration: 0,6861 Wasted Time: 0,0062).
+Action.c(75): Notify: Transaction "click_end_regist" started.
+Action.c(77): web_custom_request("AccountCreateRequest") started  	[MsgId: MMSG-26355]
+Action.c(77): web_custom_request("AccountCreateRequest") was successful, 403 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(90): web_custom_request("AccountLoginRequest") was successful, 797 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(102): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(102): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(104): Notify: Transaction "click_end_regist" ended with a "Pass" status (Duration: 0,9035 Wasted Time: 0,0087).
+Action.c(106): Notify: Transaction "logout" started.
+Action.c(108): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(108): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(120): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,5297 Wasted Time: 0,0030).
+Action.c(122): Notify: Transaction "UC_1_NewUser_Registration" ended with a "Pass" status (Duration: 5,9991 Wasted Time: 0,1372).
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(3): Notify: Transaction "UC_1_NewUser_Registration" started.
+Action.c(5): Notify: Transaction "open_homepage" started.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/main.min.css" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/images/Down_arrow.svg" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/vendor/requirejs/require.js" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/main.min.js" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/services.properties" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(9): web_url("www.advantageonlineshopping.com") was successful, 408568 body bytes, 3418 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): web_url("home-page.html") started  	[MsgId: MMSG-26355]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/css/images/chat_logo.png" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" (specified by argument number 8)  	[MsgId: MMSG-26577]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+Action.c(34): web_url("home-page.html") highest severity level was "warning", 55965 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+Action.c(45): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 3,4558 Wasted Time: 0,0734).
+Action.c(48): Notify: Transaction "click_Regist" started.
+Action.c(51): web_url("register-page.html") started  	[MsgId: MMSG-26355]
+Action.c(51): web_url("register-page.html") was successful, 1469 body bytes, 406 header bytes  	[MsgId: MMSG-26386]
+Action.c(60): web_custom_request("GetCountriesRequest") started  	[MsgId: MMSG-26355]
+Action.c(60): web_custom_request("GetCountriesRequest") was successful, 4184 body bytes, 761 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "click_Regist" ended with a "Pass" status (Duration: 0,6543 Wasted Time: 0,0099).
+Action.c(75): Notify: Transaction "click_end_regist" started.
+Action.c(77): web_custom_request("AccountCreateRequest") started  	[MsgId: MMSG-26355]
+Action.c(77): web_custom_request("AccountCreateRequest") was successful, 415 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(90): web_custom_request("AccountLoginRequest") was successful, 796 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(102): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(102): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(104): Notify: Transaction "click_end_regist" ended with a "Pass" status (Duration: 0,9530 Wasted Time: 0,0129).
+Action.c(106): Notify: Transaction "logout" started.
+Action.c(108): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(108): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(120): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,5009 Wasted Time: 0,0049).
+Action.c(122): Notify: Transaction "UC_1_NewUser_Registration" ended with a "Pass" status (Duration: 5,6430 Wasted Time: 0,1011).
+Ending action Action.
+Ending iteration 2.
+Starting iteration 3.
+Starting action Action.
+Action.c(3): Notify: Transaction "UC_1_NewUser_Registration" started.
+Action.c(5): Notify: Transaction "open_homepage" started.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/main.min.css" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/images/Down_arrow.svg" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/vendor/requirejs/require.js" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/main.min.js" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/services.properties" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(9): web_url("www.advantageonlineshopping.com") was successful, 408568 body bytes, 3418 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): web_url("home-page.html") started  	[MsgId: MMSG-26355]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/css/images/chat_logo.png" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" (specified by argument number 8)  	[MsgId: MMSG-26577]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+Action.c(34): web_url("home-page.html") highest severity level was "warning", 55965 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+Action.c(45): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 3,6934 Wasted Time: 0,0772).
+Action.c(48): Notify: Transaction "click_Regist" started.
+Action.c(51): web_url("register-page.html") started  	[MsgId: MMSG-26355]
+Action.c(51): web_url("register-page.html") was successful, 1469 body bytes, 406 header bytes  	[MsgId: MMSG-26386]
+Action.c(60): web_custom_request("GetCountriesRequest") started  	[MsgId: MMSG-26355]
+Action.c(60): web_custom_request("GetCountriesRequest") was successful, 4184 body bytes, 761 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "click_Regist" ended with a "Pass" status (Duration: 0,5434 Wasted Time: 0,0182).
+Action.c(75): Notify: Transaction "click_end_regist" started.
+Action.c(77): web_custom_request("AccountCreateRequest") started  	[MsgId: MMSG-26355]
+Action.c(77): web_custom_request("AccountCreateRequest") was successful, 415 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(90): web_custom_request("AccountLoginRequest") was successful, 796 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(102): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(102): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(104): Notify: Transaction "click_end_regist" ended with a "Pass" status (Duration: 0,9108 Wasted Time: 0,0172).
+Action.c(106): Notify: Transaction "logout" started.
+Action.c(108): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(108): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(120): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,5143 Wasted Time: 0,0095).
+Action.c(122): Notify: Transaction "UC_1_NewUser_Registration" ended with a "Pass" status (Duration: 5,7404 Wasted Time: 0,1221).
+Ending action Action.
+Ending iteration 3.
+Starting iteration 4.
+Starting action Action.
+Action.c(3): Notify: Transaction "UC_1_NewUser_Registration" started.
+Action.c(5): Notify: Transaction "open_homepage" started.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/main.min.css" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/images/Down_arrow.svg" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/vendor/requirejs/require.js" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/main.min.js" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/services.properties" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(9): web_url("www.advantageonlineshopping.com") was successful, 408571 body bytes, 3418 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): web_url("home-page.html") started  	[MsgId: MMSG-26355]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/css/images/chat_logo.png" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" (specified by argument number 8)  	[MsgId: MMSG-26577]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+Action.c(34): web_url("home-page.html") highest severity level was "warning", 55965 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+Action.c(45): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 3,2070 Wasted Time: 0,0846).
+Action.c(48): Notify: Transaction "click_Regist" started.
+Action.c(51): web_url("register-page.html") started  	[MsgId: MMSG-26355]
+Action.c(51): web_url("register-page.html") was successful, 1469 body bytes, 406 header bytes  	[MsgId: MMSG-26386]
+Action.c(60): web_custom_request("GetCountriesRequest") started  	[MsgId: MMSG-26355]
+Action.c(60): web_custom_request("GetCountriesRequest") was successful, 4184 body bytes, 761 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "click_Regist" ended with a "Pass" status (Duration: 0,5926 Wasted Time: 0,0170).
+Action.c(75): Notify: Transaction "click_end_regist" started.
+Action.c(77): web_custom_request("AccountCreateRequest") started  	[MsgId: MMSG-26355]
+Action.c(77): web_custom_request("AccountCreateRequest") was successful, 415 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(90): web_custom_request("AccountLoginRequest") was successful, 796 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(102): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(102): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(104): Notify: Transaction "click_end_regist" ended with a "Pass" status (Duration: 0,8858 Wasted Time: 0,0180).
+Action.c(106): Notify: Transaction "logout" started.
+Action.c(108): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(108): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(120): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,5018 Wasted Time: 0,0099).
+Action.c(122): Notify: Transaction "UC_1_NewUser_Registration" ended with a "Pass" status (Duration: 5,2649 Wasted Time: 0,1295).
+Ending action Action.
+Ending iteration 4.
+Starting iteration 5.
+Starting action Action.
+Action.c(3): Notify: Transaction "UC_1_NewUser_Registration" started.
+Action.c(5): Notify: Transaction "open_homepage" started.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/main.min.css" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/images/Down_arrow.svg" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/vendor/requirejs/require.js" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/main.min.js" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/services.properties" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(9): web_url("www.advantageonlineshopping.com") was successful, 408571 body bytes, 3418 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): web_url("home-page.html") started  	[MsgId: MMSG-26355]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/css/images/chat_logo.png" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" (specified by argument number 8)  	[MsgId: MMSG-26577]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+Action.c(34): web_url("home-page.html") highest severity level was "warning", 55965 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+Action.c(45): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 3,3752 Wasted Time: 0,0914).
+Action.c(48): Notify: Transaction "click_Regist" started.
+Action.c(51): web_url("register-page.html") started  	[MsgId: MMSG-26355]
+Action.c(51): web_url("register-page.html") was successful, 1469 body bytes, 406 header bytes  	[MsgId: MMSG-26386]
+Action.c(60): web_custom_request("GetCountriesRequest") started  	[MsgId: MMSG-26355]
+Action.c(60): web_custom_request("GetCountriesRequest") was successful, 4184 body bytes, 761 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "click_Regist" ended with a "Pass" status (Duration: 0,6346 Wasted Time: 0,0212).
+Action.c(75): Notify: Transaction "click_end_regist" started.
+Action.c(77): web_custom_request("AccountCreateRequest") started  	[MsgId: MMSG-26355]
+Action.c(77): web_custom_request("AccountCreateRequest") was successful, 415 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(90): web_custom_request("AccountLoginRequest") was successful, 797 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(102): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(102): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(104): Notify: Transaction "click_end_regist" ended with a "Pass" status (Duration: 0,9362 Wasted Time: 0,0246).
+Action.c(106): Notify: Transaction "logout" started.
+Action.c(108): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(108): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(120): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,5127 Wasted Time: 0,0163).
+Action.c(122): Notify: Transaction "UC_1_NewUser_Registration" ended with a "Pass" status (Duration: 5,5369 Wasted Time: 0,1535).
+Ending action Action.
+Ending iteration 5.
+Starting iteration 6.
+Starting action Action.
+Action.c(3): Notify: Transaction "UC_1_NewUser_Registration" started.
+Action.c(5): Notify: Transaction "open_homepage" started.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/main.min.css" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/images/Down_arrow.svg" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/vendor/requirejs/require.js" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/main.min.js" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/services.properties" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(9): web_url("www.advantageonlineshopping.com") was successful, 408571 body bytes, 3418 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): web_url("home-page.html") started  	[MsgId: MMSG-26355]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/css/images/chat_logo.png" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" (specified by argument number 8)  	[MsgId: MMSG-26577]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+Action.c(34): web_url("home-page.html") highest severity level was "warning", 55965 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+Action.c(45): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 3,3484 Wasted Time: 0,0970).
+Action.c(48): Notify: Transaction "click_Regist" started.
+Action.c(51): web_url("register-page.html") started  	[MsgId: MMSG-26355]
+Action.c(51): web_url("register-page.html") was successful, 1469 body bytes, 406 header bytes  	[MsgId: MMSG-26386]
+Action.c(60): web_custom_request("GetCountriesRequest") started  	[MsgId: MMSG-26355]
+Action.c(60): web_custom_request("GetCountriesRequest") was successful, 4184 body bytes, 761 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "click_Regist" ended with a "Pass" status (Duration: 0,6393 Wasted Time: 0,0257).
+Action.c(75): Notify: Transaction "click_end_regist" started.
+Action.c(77): web_custom_request("AccountCreateRequest") started  	[MsgId: MMSG-26355]
+Action.c(77): web_custom_request("AccountCreateRequest") was successful, 415 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(90): web_custom_request("AccountLoginRequest") was successful, 797 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(102): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(102): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(104): Notify: Transaction "click_end_regist" ended with a "Pass" status (Duration: 0,9542 Wasted Time: 0,0367).
+Action.c(106): Notify: Transaction "logout" started.
+Action.c(108): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(108): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(120): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,5145 Wasted Time: 0,0138).
+Action.c(122): Notify: Transaction "UC_1_NewUser_Registration" ended with a "Pass" status (Duration: 5,5351 Wasted Time: 0,1732).
+Ending action Action.
+Ending iteration 6.
+Starting iteration 7.
+Starting action Action.
+Action.c(3): Notify: Transaction "UC_1_NewUser_Registration" started.
+Action.c(5): Notify: Transaction "open_homepage" started.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/main.min.css" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/images/Down_arrow.svg" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/vendor/requirejs/require.js" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/main.min.js" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/services.properties" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(9): web_url("www.advantageonlineshopping.com") was successful, 408568 body bytes, 3418 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): web_url("home-page.html") started  	[MsgId: MMSG-26355]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/css/images/chat_logo.png" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" (specified by argument number 8)  	[MsgId: MMSG-26577]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+Action.c(34): web_url("home-page.html") highest severity level was "warning", 55965 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+Action.c(45): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 3,4745 Wasted Time: 0,0983).
+Action.c(48): Notify: Transaction "click_Regist" started.
+Action.c(51): web_url("register-page.html") started  	[MsgId: MMSG-26355]
+Action.c(51): web_url("register-page.html") was successful, 1469 body bytes, 406 header bytes  	[MsgId: MMSG-26386]
+Action.c(60): web_custom_request("GetCountriesRequest") started  	[MsgId: MMSG-26355]
+Action.c(60): web_custom_request("GetCountriesRequest") was successful, 4184 body bytes, 761 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "click_Regist" ended with a "Pass" status (Duration: 0,6892 Wasted Time: 0,0301).
+Action.c(75): Notify: Transaction "click_end_regist" started.
+Action.c(77): web_custom_request("AccountCreateRequest") started  	[MsgId: MMSG-26355]
+Action.c(77): web_custom_request("AccountCreateRequest") was successful, 415 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(90): web_custom_request("AccountLoginRequest") was successful, 797 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(102): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(102): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(104): Notify: Transaction "click_end_regist" ended with a "Pass" status (Duration: 0,9310 Wasted Time: 0,0399).
+Action.c(106): Notify: Transaction "logout" started.
+Action.c(108): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(108): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(120): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,4980 Wasted Time: 0,0186).
+Action.c(122): Notify: Transaction "UC_1_NewUser_Registration" ended with a "Pass" status (Duration: 5,6707 Wasted Time: 0,1869).
+Ending action Action.
+Ending iteration 7.
+Starting iteration 8.
+Starting action Action.
+Action.c(3): Notify: Transaction "UC_1_NewUser_Registration" started.
+Action.c(5): Notify: Transaction "open_homepage" started.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/main.min.css" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/images/Down_arrow.svg" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/vendor/requirejs/require.js" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/main.min.js" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/services.properties" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(9): web_url("www.advantageonlineshopping.com") was successful, 408568 body bytes, 3418 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): web_url("home-page.html") started  	[MsgId: MMSG-26355]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/css/images/chat_logo.png" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" (specified by argument number 8)  	[MsgId: MMSG-26577]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+Action.c(34): web_url("home-page.html") highest severity level was "warning", 55965 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+Action.c(45): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 3,0313 Wasted Time: 0,1166).
+Action.c(48): Notify: Transaction "click_Regist" started.
+Action.c(51): web_url("register-page.html") started  	[MsgId: MMSG-26355]
+Action.c(51): web_url("register-page.html") was successful, 1469 body bytes, 406 header bytes  	[MsgId: MMSG-26386]
+Action.c(60): web_custom_request("GetCountriesRequest") started  	[MsgId: MMSG-26355]
+Action.c(60): web_custom_request("GetCountriesRequest") was successful, 4184 body bytes, 761 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "click_Regist" ended with a "Pass" status (Duration: 0,6438 Wasted Time: 0,0343).
+Action.c(75): Notify: Transaction "click_end_regist" started.
+Action.c(77): web_custom_request("AccountCreateRequest") started  	[MsgId: MMSG-26355]
+Action.c(77): web_custom_request("AccountCreateRequest") was successful, 415 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(90): web_custom_request("AccountLoginRequest") was successful, 797 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(102): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(102): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(104): Notify: Transaction "click_end_regist" ended with a "Pass" status (Duration: 0,9050 Wasted Time: 0,0401).
+Action.c(106): Notify: Transaction "logout" started.
+Action.c(108): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(108): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(120): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,5139 Wasted Time: 0,0185).
+Action.c(122): Notify: Transaction "UC_1_NewUser_Registration" ended with a "Pass" status (Duration: 5,1729 Wasted Time: 0,2094).
+Ending action Action.
+Ending iteration 8.
+Starting iteration 9.
+Starting action Action.
+Action.c(3): Notify: Transaction "UC_1_NewUser_Registration" started.
+Action.c(5): Notify: Transaction "open_homepage" started.
+Action.c(7): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(7): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(9): web_url("www.advantageonlineshopping.com") started  	[MsgId: MMSG-26355]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/main.min.css" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/css/images/Down_arrow.svg" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Found resource "https://www.advantageonlineshopping.com/vendor/requirejs/require.js" in HTML "https://www.advantageonlineshopping.com/"  	[MsgId: MMSG-26659]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/main.min.js" (specified by argument number 10)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/services.properties" (specified by argument number 12)  	[MsgId: MMSG-26577]
+Action.c(9): Downloading resource "https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json" (specified by argument number 14)  	[MsgId: MMSG-26577]
+Action.c(9): web_url("www.advantageonlineshopping.com") was successful, 408568 body bytes, 3418 header bytes  	[MsgId: MMSG-26386]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") started  	[MsgId: MMSG-26355]
+Action.c(22): web_custom_request("GetAccountConfigurationRequest") was successful, 823 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(34): web_url("home-page.html") started  	[MsgId: MMSG-26355]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/css/images/chat_logo.png" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Found resource "https://www.advantageonlineshopping.com/app/views/" in HTML "https://www.advantageonlineshopping.com/app/views/home-page.html"  	[MsgId: MMSG-26659]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_bold_macroman/Roboto-Bold-webfont.woff" (specified by argument number 8)  	[MsgId: MMSG-26577]
+Action.c(34): Downloading resource "https://www.advantageonlineshopping.com/css/fonts/roboto_thin_macroman/Roboto-Thin-webfont.woff" (specified by argument number 11)  	[MsgId: MMSG-26577]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/"  	[MsgId: MWAR-26627]
+Action.c(34): Warning -26627: HTTP Status-Code=404 (Not Found) for "https://www.advantageonlineshopping.com/app/views/css/images/Special-offer.jpg"  	[MsgId: MWAR-26627]
+Action.c(34): web_url("home-page.html") highest severity level was "warning", 55965 body bytes, 2201 header bytes  	[MsgId: MMSG-26388]
+Action.c(45): Notify: Transaction "open_homepage" ended with a "Pass" status (Duration: 3,7095 Wasted Time: 0,1145).
+Action.c(48): Notify: Transaction "click_Regist" started.
+Action.c(51): web_url("register-page.html") started  	[MsgId: MMSG-26355]
+Action.c(51): web_url("register-page.html") was successful, 1469 body bytes, 406 header bytes  	[MsgId: MMSG-26386]
+Action.c(60): web_custom_request("GetCountriesRequest") started  	[MsgId: MMSG-26355]
+Action.c(60): web_custom_request("GetCountriesRequest") was successful, 4184 body bytes, 761 header bytes  	[MsgId: MMSG-26386]
+Action.c(72): Notify: Transaction "click_Regist" ended with a "Pass" status (Duration: 0,6861 Wasted Time: 0,0387).
+Action.c(75): Notify: Transaction "click_end_regist" started.
+Action.c(77): web_custom_request("AccountCreateRequest") started  	[MsgId: MMSG-26355]
+Action.c(77): web_custom_request("AccountCreateRequest") was successful, 415 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(90): web_custom_request("AccountLoginRequest") started  	[MsgId: MMSG-26355]
+Action.c(90): web_custom_request("AccountLoginRequest") was successful, 797 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(102): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(102): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(104): Notify: Transaction "click_end_regist" ended with a "Pass" status (Duration: 0,9329 Wasted Time: 0,0428).
+Action.c(106): Notify: Transaction "logout" started.
+Action.c(108): web_custom_request("AccountLogoutRequest") started  	[MsgId: MMSG-26355]
+Action.c(108): web_custom_request("AccountLogoutRequest") was successful, 402 body bytes, 735 header bytes  	[MsgId: MMSG-26386]
+Action.c(120): Notify: Transaction "logout" ended with a "Pass" status (Duration: 0,5120 Wasted Time: 0,0196).
+Action.c(122): Notify: Transaction "UC_1_NewUser_Registration" ended with a "Pass" status (Duration: 5,9205 Wasted Time: 0,2156).
+Ending action Action.
+Ending iteration 9.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,92 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.advantageonlineshopping.com",
+                "infFile": "t1.inf",
+                "time": 1685930843584
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t2.inf",
+                "time": 1685930843802
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: home-page.html",
+                "infFile": "t3.inf",
+                "time": 1685930844486
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: register-page.html",
+                "infFile": "t4.inf",
+                "time": 1685930844726
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: GetCountriesRequest",
+                "infFile": "t5.inf",
+                "time": 1685930844984
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: AccountCreateRequest",
+                "infFile": "t6.inf",
+                "time": 1685930845286
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Custom Request: AccountLoginRequest",
+                "infFile": "t7.inf",
+                "time": 1685930845638
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Custom Request: AccountLogoutRequest",
+                "infFile": "t8.inf",
+                "time": 1685930846045
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_homepage",
+                "rawStartTime": 1685930839891,
+                "rawEndTime": 1685930844489,
+                "thinkTime": 0.0,
+                "wastedTime": 0.10006213188171387
+            },
+            {
+                "transactionName": "click_Regist",
+                "rawStartTime": 1685930844520,
+                "rawEndTime": 1685930844989,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005916118621826172
+            },
+            {
+                "transactionName": "click_end_regist",
+                "rawStartTime": 1685930845005,
+                "rawEndTime": 1685930845662,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0058977603912353519
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1685930845694,
+                "rawEndTime": 1685930846051,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0040988922119140629
+            },
+            {
+                "transactionName": "UC_1_NewUser_Registration",
+                "rawStartTime": 1685930839871,
+                "rawEndTime": 1685930846067,
+                "thinkTime": 0.0,
+                "wastedTime": 0.11597490310668946
+            }
+        ]
+    }
+]

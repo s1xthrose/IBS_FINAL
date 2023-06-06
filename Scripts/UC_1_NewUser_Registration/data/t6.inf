@@ -1,0 +1,13 @@
+[t6]
+FileName1=t6_ddljson.json
+URL1=https://www.google.com/async/ddljson?async=ntp:2
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_6.xml
+RequestHeaderFile=t6_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t6_ResponseHeader.txt
+FileName2=t6_search.html
+URL2=https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext-ansg&xssi=t&q=&oit=0&oft=1&pgcl=20&gs_rn=42&sugkey=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw
+[ProtocolInfo]
+ProtocolId=QTWeb

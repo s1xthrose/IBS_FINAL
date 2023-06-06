@@ -1,0 +1,13 @@
+[t17]
+FileName1=t17.json
+URL1=https://update.googleapis.com/service/update2/json?cup2key=13:8G25CkvvMbBQxrGBQE40pRGheqMY0A-p6B2P29THycg&cup2hreq=54d4a0f4ca31b4873972aee2723524535cb73790e836c9efc0a64499eea0d614
+Total=2
+RequestHeaderFile=t17_RequestHeader.txt
+RequestBodyFile=t17_RequestBody.txt
+ResponseHeaderFile=t17_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_17.xml
+FileName2=t17_FacebookLogo.png
+URL2=https://www.advantageonlineshopping.com/css/images/FacebookLogo.png
+[ProtocolInfo]
+ProtocolId=QTWeb

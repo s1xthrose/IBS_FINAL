@@ -1,0 +1,26 @@
+[t2]
+FileName2=t1_5_main.css
+RawStepEndTime=1685930307424
+FileName5=t1_2_popularProducts.json
+FileName4=t1_3_services.UNK
+FileName7=t1_0_js.UNK
+FileName6=t1_1_Down_arrow.UNK
+RequestBodyFile=t2_RequestBody.txt
+RawStepName=GetAccountConfigurationRequest
+ContentType=application/xml
+URL1=https://www.advantageonlineshopping.com/accountservice/ws/GetAccountConfigurationRequest
+URL2=https://www.advantageonlineshopping.com/css/main.min.css
+URL3=https://www.advantageonlineshopping.com/vendor/requirejs/require.js
+ResponseHeaderFile=t2_ResponseHeader.txt
+URL4=https://www.advantageonlineshopping.com/services.properties
+URL5=https://www.advantageonlineshopping.com/app/tempFiles/popularProducts.json
+URL6=https://www.advantageonlineshopping.com/css/images/Down_arrow.svg
+URL7=https://www.googletagmanager.com/gtag/js?id=G-TBPYED8WSW
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+RawStepStartTime=1685930307156
+Total=7
+StepName=Custom Request: GetAccountConfigurationRequest
+FileName1=t2.xml
+FileName3=t1_4_require.UNK

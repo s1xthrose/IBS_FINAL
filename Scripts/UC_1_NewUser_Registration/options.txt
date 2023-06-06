@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Anton\Desktop\Final_task\Scripts\UC_1_NewUser_Registration
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\anton\desktop\final_task\scripts\uc_1_newuser_registration\\logfile.log
+c:\users\anton\desktop\final_task\scripts\uc_1_newuser_registration\\combined_UC_1_NewUser_Registration.c
+c:\users\anton\desktop\final_task\scripts\uc_1_newuser_registration\\pre_cci.c

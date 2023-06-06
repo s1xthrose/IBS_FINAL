@@ -1,0 +1,73 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: www.advantageonlineshopping.com",
+                "infFile": "t1.inf",
+                "time": 1685930307137
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t2.inf",
+                "time": 1685930307442
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: home-page.html",
+                "infFile": "t3.inf",
+                "time": 1685930308096
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: AccountLoginRequest",
+                "infFile": "t6.inf",
+                "time": 1685930308612
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: userId",
+                "infFile": "t7.inf",
+                "time": 1685930308975
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Custom Request: AccountLogoutRequest",
+                "infFile": "t8.inf",
+                "time": 1685930309492
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_homepage",
+                "rawStartTime": 1685930305908,
+                "rawEndTime": 1685930308109,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07400202751159668
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1685930308125,
+                "rawEndTime": 1685930308994,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01194310188293457
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1685930309010,
+                "rawEndTime": 1685930309494,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0033102035522460939
+            },
+            {
+                "transactionName": "UC_2_Login",
+                "rawStartTime": 1685930305888,
+                "rawEndTime": 1685930309509,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08925533294677735
+            }
+        ]
+    }
+]

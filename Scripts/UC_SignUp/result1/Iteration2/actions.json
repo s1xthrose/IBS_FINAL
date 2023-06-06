@@ -1,0 +1,54 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: www.advantageonlineshopping.com",
+                "infFile": "t1.inf",
+                "time": 1685919100612
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Custom Request: GetAccountConfigurationRequest",
+                "infFile": "t2.inf",
+                "time": 1685919100929
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: home-page.html",
+                "infFile": "t3.inf",
+                "time": 1685919101440
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: register-page.html",
+                "infFile": "t4.inf",
+                "time": 1685919101727
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_homepage",
+                "rawStartTime": 1685919098406,
+                "rawEndTime": 1685919101446,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07162666320800781
+            },
+            {
+                "transactionName": "click_Regist",
+                "rawStartTime": 1685919101461,
+                "rawEndTime": 1685919101937,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00556492805480957
+            },
+            {
+                "transactionName": "UC_SignUp",
+                "rawStartTime": 1685919098391,
+                "rawEndTime": 1685919101937,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07719159126281738
+            }
+        ]
+    }
+]

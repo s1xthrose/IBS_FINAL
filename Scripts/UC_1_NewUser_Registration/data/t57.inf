@@ -1,0 +1,11 @@
+[t57]
+FileName1=t57_search.json
+URL1=https://www.advantageonlineshopping.com/catalog/api/v1/deals/search?dealOfTheDay=true
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_57.xml
+RequestHeaderFile=t57_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t57_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
